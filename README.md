@@ -34,7 +34,7 @@ pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-
 #### 3.1 Open RSS_feed_scraping.ipynb
 #### 3.2 Replace default RSS URL if needed
 ```
-articles = scrape_rss_feed('https://www.theverge.com/rss/index.xml')  # Replace with your feed
+articles = scrape_rss_feed('http://example.com/rss')  # Replace with your feed
 ```
 #### 3.3 Set recipient email
 ```
